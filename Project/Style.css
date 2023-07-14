@@ -1,0 +1,74 @@
+body{
+    font-family: verdana;
+
+    background-image: url(background.png);
+
+    width: 100%;
+
+    height: 100%;
+}
+
+*{
+    margin: 0;
+
+    padding: 0;
+}
+
+header,footer{
+    position: absolute;
+    
+    background-color: #1C63E7;
+
+    width: 100%;
+
+    color: white;
+}
+
+header h2{
+    position: absolute;
+    
+    margin-top: 16px;
+
+    left: 3%;
+}
+
+header{
+    height: 10vh;
+}
+
+
+footer{
+    height: 13vh;
+
+    bottom: 0;
+}
+
+footer a{
+    position: absolute;
+
+    left: 37%;
+
+    margin: 32px;
+}
+
+.nav{
+    position: absolute;
+
+    width: 100%;
+}
+
+.nav a{
+    position: relative;
+
+    left: 45%;
+    
+    top: 20px;
+
+    color: white;
+
+    text-decoration: none;
+
+    margin-right: 20px;
+}
+
+
